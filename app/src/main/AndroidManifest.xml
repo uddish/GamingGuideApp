@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uddishverma.gameapp_2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".XboxIntroPage" />
+        <activity android:name=".XboxExclusiveList" />
+        <activity android:name=".XboxAllTimeList" />
+        <activity android:name=".XboxAllGamesList" />
+        <activity android:name=".PsExclusiveList" />
+        <activity android:name=".PsIntroPage" />
+        <activity android:name=".PsAllTimeList" />
+        <activity android:name=".PsAllGamesList" />
+        <activity android:name=".NintendoList" />
+        <activity android:name=".Halo5_page" />
+        <activity android:name=".WebViewCheats">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data android:mimeType="http://" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Gameplay" />
+        <activity android:name=".Amazon"></activity>
+    </application>
+
+</manifest>
